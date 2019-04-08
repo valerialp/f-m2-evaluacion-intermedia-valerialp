@@ -13,7 +13,7 @@ function getRandomNumber(max) {
 }
 
 let randomNumber = getRandomNumber(100);
-console.log(randomNumber);
+console.log('Este es el número random -> ' + randomNumber);
 
 //crear una funcion handler para el boton 
 function testing() {
@@ -23,6 +23,7 @@ function testing() {
         return;
     } else if (Number(inputEl.value) === randomNumber) {
         trackEl.innerHTML = '¡HAS GANADO, CAMPEONA!';
+        return;
     } else if (Number(inputEl.value) > randomNumber) {
         trackEl.innerHTML = 'Demasiado alto';
     } else if (Number(inputEl.value) < randomNumber) {
