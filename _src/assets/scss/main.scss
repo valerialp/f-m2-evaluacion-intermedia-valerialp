@@ -10,4 +10,26 @@ body {
 	position: fixed;
 	right: 0;
 	top:0;
+	color: red;
 }
+
+.track{
+	color: blue;
+	border: 1px solid blue;
+}
+
+.main__title{
+	text-align: center;
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	max-width: 400px;
+}
+
+
