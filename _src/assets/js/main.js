@@ -18,9 +18,9 @@ console.log(randomNumber);
 //crear una funcion handler para el boton 
 function testing() {
     console.log(Number(inputEl.value));
-    if(inputEl.value === ''){
+    if (inputEl.value === '') {
         trackEl.innerHTML = 'Pon un número';
-        return ;
+        return;
     } else if (Number(inputEl.value) === randomNumber) {
         trackEl.innerHTML = '¡HAS GANADO, CAMPEONA!';
     } else if (Number(inputEl.value) > randomNumber) {
