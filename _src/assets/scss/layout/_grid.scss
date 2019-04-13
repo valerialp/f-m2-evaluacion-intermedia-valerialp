@@ -1,6 +1,7 @@
 .main__section{
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-	max-width: 400px;
+    grid-template-rows: 1fr 70px 70px;
+    margin: 0 auto;
+	max-width: 600px;
 }

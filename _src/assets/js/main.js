@@ -2,7 +2,6 @@
 
 const countEl = document.querySelector('.count');
 const inputEl = document.querySelector('#number');
-const buttonEl = document.querySelector('.btn-try');
 const buttonResetEl = document.querySelector('.btn-reset');
 const trackEl = document.querySelector('.track');
 let randomNumber = getRandomNumber(100);
@@ -49,6 +48,5 @@ function handlerResetAll(){
   getRandomNumber(100);
 }
 
-buttonEl.addEventListener('click', handlerTestingNumber);
 buttonResetEl.addEventListener('click', handlerResetAll);
 inputEl.addEventListener('', handlerTestingNumber);
