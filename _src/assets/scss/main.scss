@@ -6,6 +6,11 @@
 body {
 	background-image: url(/assets/images/trono-de-hierr0.jpg);
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-family: 'Cinzel', serif;
+	color: rgb(88, 2, 2);
 }
 
 .count{
@@ -16,15 +21,15 @@ body {
 	color: red;
 }
 
-
 .main__title{
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 100px;
+	background-color: rgba(211, 211, 211, 0.5);
+	border: 1.5px solid rgb(119, 119, 119);
+	margin: 100px auto 50px;
 }
 
 
-.container{
+.main__section{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -32,6 +37,13 @@ body {
 	margin: 25px auto;
 	max-width: 400px;
 }
+
+.emblem__container{
+	height: 200px;
+	width: 200px;
+	border: 1px solid yellow;
+}
+
 
 #number{
 	margin-top: 30px;
