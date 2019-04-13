@@ -1,69 +1,9 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+//core
+@import 'core/basis';
 
-body {
-	background-image: url(/assets/images/trono-de-hierr0.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 100vh;
-	font-family: 'Cinzel', serif;
-	color: rgb(88, 2, 2);
-}
-
-.count{
-	font-size: 32px;
-	position: fixed;
-	right: 0;
-	top:0;
-	color: red;
-}
-
-.main__title{
-	text-align: center;
-	background-color: rgba(211, 211, 211, 0.5);
-	border: 1.5px solid rgb(119, 119, 119);
-	margin: 100px auto 50px;
-}
-
-
-.main__section{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 25px auto;
-	max-width: 400px;
-}
-
-.emblem__container{
-	height: 200px;
-	width: 200px;
-	border: 1px solid yellow;
-}
-
-
-#number{
-	margin-top: 30px;
-	margin-bottom: 30px;
-	height: 20px;
-}
-
-.btn{
-	height: 20px;
-	min-width: 177px;
-}
-
-.track{
-	color: blue;
-	border: 1px solid blue;
-	text-align: center;
-	max-width: 400px;
-	height: 25px;
-	margin: auto;
-	font-weight: 900;
-}
+//layout
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/main';
 
 
