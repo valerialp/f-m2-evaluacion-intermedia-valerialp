@@ -4,3 +4,25 @@
     padding: 3px 6px;
     vertical-align: middle;
 }
+
+.btn-try{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.btn-reset{
+	position: absolute;
+	top: 2.5%;
+	right: 2%;
+	height: 20px;
+	min-width: 100px;
+}
+
+.btn-info{
+	height: 15px;
+    width: 15px;
+    padding: 0;
+	position: absolute;
+	top: 6%;
+	right: 2.5%;
+}
