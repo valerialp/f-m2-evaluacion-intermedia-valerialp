@@ -7,6 +7,8 @@ const buttonTryEl = document.querySelector('.btn-try');
 const trackEl = document.querySelector('.track');
 const photoEl = document.querySelector('.photo');
 const emblemEl = document.querySelectorAll('.emblem');
+const buttonInfoEl = document.querySelector('.btn-info');
+const infoEl = document.querySelector('.pop-up');
 let randomNumber = getRandomNumber(100);
 
 console.log('Este es el número random -> ' + randomNumber);
@@ -63,6 +65,10 @@ function handlerTestingNumber(event) {
   theQueenKing();
 }
 
+function handlerTextInfo(){
+  infoEl.classList.toggle('hidden');
+}
+
 function handlerResetAll(){
   countEl.innerHTML = 0;
   inputEl.value = '';
@@ -75,3 +81,4 @@ function handlerResetAll(){
 
 buttonResetEl.addEventListener('click', handlerResetAll);
 buttonTryEl.addEventListener('click', handlerTestingNumber);
+buttonInfoEl.addEventListener('click', handlerTextInfo);
