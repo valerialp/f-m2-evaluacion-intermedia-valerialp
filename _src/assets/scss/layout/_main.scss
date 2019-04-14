@@ -6,7 +6,7 @@
 .photo{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin: auto;
+    margin: 67.5px auto;
     height: 180px;
 }
 
@@ -31,12 +31,17 @@
 .input-number{
     grid-column: 2/3;
     grid-row: 2/3;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-bottom: 30px;
 	height: 20px;
 }
 
-
+.btn-try{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    max-height: 20px;
+    margin-top: 50px;
+}
 
 .track{
     grid-column: 1/4;
@@ -44,6 +49,7 @@
 	text-align: center;
 	height: 25px;
     font-weight: 900;
+    margin: 10px 20px;
     background-color: rgba(211, 211, 211, 0.5);
 	border: 1.5px solid rgb(119, 119, 119);
 }
